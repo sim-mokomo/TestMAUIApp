@@ -63,9 +63,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="TestLibrary">
-        <HintPath>TestLibrary.dll</HintPath>
-      </Reference>
+      <ProjectReference Include="..\TestLibrary\TestLibrary.csproj" />
     </ItemGroup>
 
 </Project>
